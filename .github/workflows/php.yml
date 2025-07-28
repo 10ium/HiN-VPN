@@ -3,7 +3,7 @@ name: "HiN VPN"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '30 10 * * *'  # 14:00 Tehran
 
 jobs:
   HiN-VPN:
